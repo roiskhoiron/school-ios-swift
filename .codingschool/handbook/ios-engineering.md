@@ -30,3 +30,30 @@ print("Awal \(nama) \(umur) \(skor)")
 **Progress:** 100% complete
 
 ---
+## 2026-09-21 13:56:05
+
+**Topic:** Data Types
+
+**Theory:**
+- Data Types seperti wadah dapur: String (kotak label), Int (tempat telur bulat), Double (gelas takar desimal), Bool (saklar true/false), Array (rak buku urut), Dictionary (lemari berlabel key:value), Set (keranjang unik tanpa duplikat).
+- Type safety Swift: sekali tipe ditentukan tidak bisa ganti sembarangan (beda dari Dart yang lebih longgar). Mencegah crash.
+- Analogi: Array = index+value, Dictionary = key+value (cepat cari), Set = unik.
+
+**Practice:**
+- Playground code:
+```swift
+let nama: String = "Rois"
+let umur: Int = 28
+let tinggi: Double = 175.5
+let isPro: Bool = true
+var hobi: [String] = ["coding","ngopi","gaming"]
+var skorMap: [String: Int] = ["Rois": 100]
+var angkaUnik: Set<Int> = [1,2,2,3]
+print("Halo \(nama) \(tinggi)cm \(isPro)")
+```
+- Diskusi: daftar kontak pakai Dictionary dengan key=nama, value=nomor, karena butuh pencarian cepat by key dan key otomatis unik. Array lambat & boleh duplikat, Set cuma value tanpa pasangan.
+- Error demo: `let x: Int = 3.14` error type mismatch.
+
+**Progress:** 100% complete
+
+---

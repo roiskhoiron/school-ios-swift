@@ -4,16 +4,18 @@
       "name": "iOS engineering",
       "percent": 100,
       "theory": [
-        "Swift Variables & Constants"
+        "Swift Variables & Constants",
+        "Data Types"
       ],
       "practice": [],
       "quizzes": [],
       "completedTheory": [
-        "Swift Variables & Constants"
+        "Swift Variables & Constants",
+        "Data Types"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Swift Variables & Constants",
+      "lastCompletedItem": "Data Types",
       "currentBloomStage": null
     }
   },
@@ -23,6 +25,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 50,
+  "xp": 100,
   "level": 1
 }
