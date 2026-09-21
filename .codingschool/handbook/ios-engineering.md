@@ -57,3 +57,28 @@ print("Halo \(nama) \(tinggi)cm \(isPro)")
 **Progress:** 100% complete
 
 ---
+## 2026-09-21 14:08:19
+
+**Topic:** Optionals
+
+**Theory:**
+- Optional = kotak kado `String?` bisa ada isi atau `nil` (kosong). `String` biasa pasti ada isi.
+- Tujuan: cegah crash NullPointer, Swift memaksa buka kotak dulu.
+- Cara aman: `if let` (optional binding), `??` (nil coalescing kasih default), optional chaining `?.`. Force unwrap `!` bahaya (crash kalau nil).
+- Mirip Kotlin `String?` dan Dart null safety.
+
+**Practice:**
+```swift
+var nickname: String? = nil
+nickname = "Roy"
+if let panggilan = nickname { print(panggilan) }
+let displayName = nickname ?? "Anonymous"
+var kontak: [String:String] = ["Rois":"08123"]
+let nomorBudi = kontak["Budi"] // nil, String?
+print(nomorBudi?.count)
+```
+- Diskusi: untuk kontak yang mungkin nil, pilih `if let` atau `??` jangan `!` karena memaksa buka kotak kosong = crash.
+
+**Progress:** 100% complete
+
+---

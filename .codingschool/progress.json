@@ -5,17 +5,19 @@
       "percent": 100,
       "theory": [
         "Swift Variables & Constants",
-        "Data Types"
+        "Data Types",
+        "Optionals"
       ],
       "practice": [],
       "quizzes": [],
       "completedTheory": [
         "Swift Variables & Constants",
-        "Data Types"
+        "Data Types",
+        "Optionals"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Data Types",
+      "lastCompletedItem": "Optionals",
       "currentBloomStage": null
     }
   },
@@ -25,6 +27,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 100,
+  "xp": 150,
   "level": 1
 }

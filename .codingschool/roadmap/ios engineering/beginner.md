@@ -3,7 +3,7 @@
 ## Phase 1 – Swift Fundamentals 🚀
 - [x] **Swift Variables & Constants** – `var` vs `let`, type inference, explicit types, mutability
 - [x] **Data Types** – Strings, Numbers, Booleans, Collections (Array, Set, Dictionary), type safety
-- [ ] **Optionals** – `?`, `!`, optional binding, nil coalescing, optional chaining
+- [x] **Optionals** – `?`, `!`, optional binding, nil coalescing, optional chaining
 - [ ] **Control Flow** – `if`, `switch`, loops (`for`, `while`), `guard`, `defer`
 - [ ] **Functions** – parameters, return values, default values, variadic, labeled arguments, closures
 - [ ] **Enums & Associated Values** – basic enums, raw values, associated values, pattern matching

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<playground version="7.0" requires-full-environment="false" target-platform="ios" swift-version="6">
+<playground target-platform="ios" swift-version="6" requires-full-environment="false" version="7.0">
     <pages>
         <page name="Swift Variables &amp; Constants"/>
         <page name="Swift Data Types"/>
+        <page name="Swift Optionals"/>
     </pages>
 </playground>
