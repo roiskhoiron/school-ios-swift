@@ -1,0 +1,15 @@
+{
+  "currentPhase": "teach",
+  "teacher": {
+    "misconceptions": [],
+    "successfulHintLevel": 1,
+    "activeTopic": "iOS engineering",
+    "lastDiagnosedAt": "2026-09-21T04:12:15.077Z"
+  },
+  "coach": {
+    "weakDimensions": [],
+    "skillGaps": []
+  },
+  "updatedAt": "2026-09-21T04:12:15.077Z",
+  "activeTopic": "iOS engineering"
+}

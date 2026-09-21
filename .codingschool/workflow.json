@@ -1,0 +1,20 @@
+{
+  "teacher": {
+    "diagnosedTopics": [
+      "iOS engineering"
+    ],
+    "roadmapTopics": [
+      "iOS engineering"
+    ],
+    "taughtTopics": [
+      "iOS engineering"
+    ],
+    "assessedTopics": []
+  },
+  "coach": {
+    "timelineInit": false,
+    "claimItems": {}
+  },
+  "lastTool": "cs_update_competency",
+  "updatedAt": "2026-09-21T05:04:32.236Z"
+}

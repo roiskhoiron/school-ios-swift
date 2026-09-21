@@ -1,0 +1,93 @@
+# Xcode
+*.pbxproj
+*.pbxuser
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.xcworkspace
+xcuserdata/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+build/
+*.hmap
+*.o
+*.LinkFileList
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.podspec.lock
+
+# Carthage
+Carthage/
+*.resolved
+
+# Swift Package Manager
+.build/
+*.xcodeproj
+Package.resolved
+.swiftpm/
+
+# Build artifacts
+*.app
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.la
+*.o
+*.lo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Test coverage
+coverage/
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+.coverage
+
+# Simulators
+Simulators/
+*.app.dSYM
+
+# Provisioning profiles
+*.mobileprovision
+*.cer
+*.p12
+
+# Local development
+.env
+.env.local
+secrets.json
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.*.swp
+*~
+
+# Misc
+.git/
+*.orig
+.AppleDouble
+.LSOverride

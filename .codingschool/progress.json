@@ -1,0 +1,28 @@
+{
+  "topics": {
+    "iOS engineering": {
+      "name": "iOS engineering",
+      "percent": 100,
+      "theory": [
+        "Swift Variables & Constants"
+      ],
+      "practice": [],
+      "quizzes": [],
+      "completedTheory": [
+        "Swift Variables & Constants"
+      ],
+      "completedPractice": [],
+      "currentItem": null,
+      "lastCompletedItem": "Swift Variables & Constants",
+      "currentBloomStage": null
+    }
+  },
+  "global": {
+    "softwareEngineering": 100,
+    "knowledge": 100,
+    "practice": 100,
+    "architecture": 50
+  },
+  "xp": 50,
+  "level": 1
+}
