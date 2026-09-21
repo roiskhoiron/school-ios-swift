@@ -7,7 +7,7 @@ print("nama saya \(name)")
 
 
 if let panggilan = nickname {
- print("panggil saja saya \(nickname)")
+    print("panggil saja saya \(panggilan)")
 } else {
     print("panggil saja saya semaumu")
 }
