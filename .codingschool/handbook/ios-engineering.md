@@ -82,3 +82,27 @@ print(nomorBudi?.count)
 **Progress:** 100% complete
 
 ---
+## 2026-09-21 14:30:59
+
+**Topic:** Control Flow
+
+**Theory:**
+- Control Flow = rambu jalan: `if/else` (pertigaan), `guard` (satpam pintu early exit), `switch` (bundaran exhaustive, no break needed), `for/while` (ngiterin komplek).
+- `guard let` vs `if let`: guard = cegah di awal, wajib exit (return/break) kalau gagal, bikin kode flat tidak pyramid. `if let` = branching alternatif (if ada isi jalan A, else jalan B).
+- Swift switch harus exhaustive, pakai `default` jika belum semua case.
+
+**Practice:**
+```swift
+func sapa(nama: String?) {
+  guard let namaAsli = nama else { print("Nama kosong"); return }
+  print("Halo \(namaAsli)")
+}
+let cuaca="hujan"
+switch cuaca { case "cerah": print("kaos"); case "hujan": print("payung"); default: print("aneh") }
+for item in ["coding","ngopi"] { print(item) }
+```
+- Diskusi: guard let = handle exception di awal (precondition), if let = alternatif eksekusi. Contoh `kirimPesan(nomorHP: String?)` lebih bersih pakai guard untuk early exit jika nomor nil.
+
+**Progress:** 100% complete
+
+---

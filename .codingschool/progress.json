@@ -6,18 +6,20 @@
       "theory": [
         "Swift Variables & Constants",
         "Data Types",
-        "Optionals"
+        "Optionals",
+        "Control Flow"
       ],
       "practice": [],
       "quizzes": [],
       "completedTheory": [
         "Swift Variables & Constants",
         "Data Types",
-        "Optionals"
+        "Optionals",
+        "Control Flow"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Optionals",
+      "lastCompletedItem": "Control Flow",
       "currentBloomStage": null
     }
   },
@@ -27,6 +29,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 150,
+  "xp": 200,
   "level": 1
 }
