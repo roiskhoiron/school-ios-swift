@@ -7,7 +7,10 @@
         "Swift Variables & Constants",
         "Data Types",
         "Optionals",
-        "Control Flow"
+        "Control Flow",
+        "Functions",
+        "Enums & Associated Values",
+        "Structs vs Classes"
       ],
       "practice": [],
       "quizzes": [],
@@ -15,11 +18,14 @@
         "Swift Variables & Constants",
         "Data Types",
         "Optionals",
-        "Control Flow"
+        "Control Flow",
+        "Functions",
+        "Enums & Associated Values",
+        "Structs vs Classes"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Control Flow",
+      "lastCompletedItem": "Structs vs Classes",
       "currentBloomStage": null
     }
   },
@@ -29,6 +35,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 200,
+  "xp": 350,
   "level": 1
 }

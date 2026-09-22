@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<playground requires-full-environment="false" swift-version="6" target-platform="ios" version="7.0">
+<playground target-platform="ios" version="7.0" requires-full-environment="false" swift-version="6">
     <pages>
         <page name="Swift Variables &amp; Constants"/>
         <page name="Swift Data Types"/>
         <page name="Swift Optionals"/>
         <page name="Swift Control Flow"/>
         <page name="Swift Functions"/>
+        <page name="Swift Enums &amp; Associated Values"/>
+        <page name="Swift Struct &amp; Classes"/>
     </pages>
 </playground>

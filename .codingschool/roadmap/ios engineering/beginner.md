@@ -5,9 +5,9 @@
 - [x] **Data Types** – Strings, Numbers, Booleans, Collections (Array, Set, Dictionary), type safety
 - [x] **Optionals** – `?`, `!`, optional binding, nil coalescing, optional chaining
 - [x] **Control Flow** – `if`, `switch`, loops (`for`, `while`), `guard`, `defer`
-- [ ] **Functions** – parameters, return values, default values, variadic, labeled arguments, closures
-- [ ] **Enums & Associated Values** – basic enums, raw values, associated values, pattern matching
-- [ ] **Structs vs Classes** – value vs reference semantics, inheritance, initializers, deinit
+- [x] **Functions** – parameters, return values, default values, variadic, labeled arguments, closures
+- [x] **Enums & Associated Values** – basic enums, raw values, associated values, pattern matching
+- [x] **Structs vs Classes** – value vs reference semantics, inheritance, initializers, deinit
 - [ ] **Protocols & Delegation** – defining protocols, conforming, using `delegate` pattern
 - [ ] **Extensions & Generics** – adding functionality, generic constraints, `where` clauses
 - [ ] **Error Handling** – `throw`, `try`, `catch`, `Result` type, custom errors
