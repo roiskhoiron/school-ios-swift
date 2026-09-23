@@ -12,7 +12,8 @@
         "Enums & Associated Values",
         "Structs vs Classes",
         "Protocols & Delegation",
-        "Extensions & Generics"
+        "Extensions & Generics",
+        "Error Handling"
       ],
       "practice": [],
       "quizzes": [],
@@ -25,11 +26,12 @@
         "Enums & Associated Values",
         "Structs vs Classes",
         "Protocols & Delegation",
-        "Extensions & Generics"
+        "Extensions & Generics",
+        "Error Handling"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Extensions & Generics",
+      "lastCompletedItem": "Error Handling",
       "currentBloomStage": null
     }
   },
@@ -39,6 +41,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 450,
+  "xp": 500,
   "level": 1
 }

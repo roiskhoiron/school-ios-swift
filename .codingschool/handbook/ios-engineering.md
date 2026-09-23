@@ -219,3 +219,25 @@ extension Array { func safeGet(index:Int)->Element? { indices.contains(index) ? 
 **Progress:** 100% complete
 
 ---
+## 2026-09-23 13:44:50
+
+**Topic:** Error Handling
+
+**Theory:**
+- Error Handling = prosedur darurat: `throw` teriak darurat, `throws` tanda pintu bisa darurat, `try` coba lakukan, `do-catch` tim UGD tangkap per jenis, `Result` amplop success/failure.
+- Swift wajib tandai `throws` dan pemanggil wajib `try`, ada `try?` (jadi Optional nil kalau error) dan `try!` (force crash). Beda Kotlin try/catch biasa yang bisa diam-diam kelewat.
+- `Result<Success,Failure>` = Either type, rapih untuk async.
+
+**Practice:**
+```swift
+enum BiayaError:Error{case saldoKurang(butuh:Int); case akunBlokir}
+func tarikUang(saldo:Int,jumlah:Int)throws->Int{guard jumlah<=saldo else{throw BiayaError.saldoKurang(butuh:jumlah-saldo)};return saldo-jumlah}
+do{let s=try tarikUang(saldo:100,jumlah:150)}catch BiayaError.saldoKurang(let b){print("kurang \(b)")}
+let h1=try? tarikUang(saldo:100,jumlah:50) // Optional
+func tarikResult(saldo:Int,jumlah:Int)->Result<Int,BiayaError>{if jumlah>saldo{return .failure(.saldoKurang(butuh:jumlah-saldo))};return .success(saldo-jumlah)}
+```
+- Diskusi: `try?` untuk tampung nullable langsung (backup nil), `do-catch` untuk branching error spesifik (mirip enum Result), `Result` lebih rapih & ramah learner karena Either sudah tersedia.
+
+**Progress:** 100% complete
+
+---

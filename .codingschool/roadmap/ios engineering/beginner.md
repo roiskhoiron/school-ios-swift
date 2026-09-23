@@ -10,7 +10,7 @@
 - [x] **Structs vs Classes** – value vs reference semantics, inheritance, initializers, deinit
 - [x] **Protocols & Delegation** – defining protocols, conforming, using `delegate` pattern
 - [x] **Extensions & Generics** – adding functionality, generic constraints, `where` clauses
-- [ ] **Error Handling** – `throw`, `try`, `catch`, `Result` type, custom errors
+- [x] **Error Handling** – `throw`, `try`, `catch`, `Result` type, custom errors
 
 ## Phase 2 – Xcode & SwiftUI Basics 🎨
 - [ ] **Xcode Installation & Project Setup** – creating a new project, workspace, scheme, debugging
