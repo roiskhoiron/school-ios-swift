@@ -13,7 +13,8 @@
         "Structs vs Classes",
         "Protocols & Delegation",
         "Extensions & Generics",
-        "Error Handling"
+        "Error Handling",
+        "Xcode Installation & Project Setup"
       ],
       "practice": [],
       "quizzes": [],
@@ -27,11 +28,12 @@
         "Structs vs Classes",
         "Protocols & Delegation",
         "Extensions & Generics",
-        "Error Handling"
+        "Error Handling",
+        "Xcode Installation & Project Setup"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Error Handling",
+      "lastCompletedItem": "Xcode Installation & Project Setup",
       "currentBloomStage": null
     }
   },
@@ -41,6 +43,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 500,
+  "xp": 600,
   "level": 1
 }

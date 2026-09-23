@@ -13,7 +13,7 @@
 - [x] **Error Handling** – `throw`, `try`, `catch`, `Result` type, custom errors
 
 ## Phase 2 – Xcode & SwiftUI Basics 🎨
-- [ ] **Xcode Installation & Project Setup** – creating a new project, workspace, scheme, debugging
+- [x] **Xcode Installation & Project Setup** – creating a new project, workspace, scheme, debugging
 - [ ] **SwiftUI Introduction** – declarative UI paradigm, preview canvas, live preview
 - [ ] **SwiftUI Views** – `Text`, `Image`, `Button`, `VStack`, `HStack`, `ZStack`, `Spacer`
 - [ ] **State Management Basics** – `@State`, `@Binding`, local vs passed state

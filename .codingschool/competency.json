@@ -1,10 +1,10 @@
 {
   "topics": {
     "iOS engineering": {
-      "knowledge": 75,
-      "implementation": 60,
-      "debugging": 42,
-      "teaching": 28
+      "knowledge": 78,
+      "implementation": 65,
+      "debugging": 50,
+      "teaching": 30
     }
   }
 }

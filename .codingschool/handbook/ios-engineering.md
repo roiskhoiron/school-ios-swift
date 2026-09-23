@@ -241,3 +241,40 @@ func tarikResult(saldo:Int,jumlah:Int)->Result<Int,BiayaError>{if jumlah>saldo{r
 **Progress:** 100% complete
 
 ---
+## 2026-09-23 14:05:29
+
+**Topic:** Xcode Installation & Project Setup
+
+**Theory:**
+- Xcode Project = gedung bengkel (.xcodeproj) berisi file, setting, sertifikat. Workspace = komplek bengkel, Scheme = tombol mode (Run/Test/Archive + device), Target = mobil yang dirakit (App/Test/Widget).
+- Bikin App SwiftUI: File->New->Project->iOS App->SwiftUI-> HelloRoisApp.swift (@main), ContentView.swift, Assets.
+- Simulator = iPhone virtual, mirip Emulator Android Studio. Scheme ≈ Build Variant.
+
+**Practice:**
+- User sudah berhasil Run app, bisa fungsi add dan edit serta remove item at index from list (List operations). Berarti project setup & simulator sudah jalan, bisa modifikasi ContentView.
+- Verifikasi: Run di simulator iPhone 15 berhasil, list mutable.
+
+**Progress:** 100% complete
+
+---
+## 2026-09-23 14:07:48
+
+**Topic:** Xcode Installation & Project Setup
+
+**Theory:**
+- Xcode Project = gedung bengkel, Workspace = komplek, Scheme = tombol mode (Run/Test/Archive), Target = mobil yang dirakit. 2 versi app (gratis/pro) pakai 2 Target + 2 Scheme, bukan 2 Project.
+- Setup: File->New->Project->iOS App->SwiftUI, pilih simulator, Run.
+
+**Practice:**
+- Berhasil buat `Swift Learn - Phase 2/HelloRois` dengan SwiftUI + SwiftData, jalan dan bisa add/edit/remove item.
+- Fix pro untuk first-launch sandbox error (Application Support belum ada):
+```swift
+_ = try FileManager.default.url(for: .applicationSupportDirectory, in: .userDomainMask, appropriateFor:nil, create:true)
+return try ModelContainer(for: schema, configurations:[modelConfiguration])
+```
+Penyebab: ModelContainer coba buat SQLite di Application Support/default.store tanpa buat folder dulu -> addPersistentStore gagal -> recovery sukses, log noise. Fix dengan create:true memastikan folder ada sebelum init.
+- File: `HelloRois/HelloRoisApp.swift` sudah di-patch dan verified run.
+
+**Progress:** 100% complete
+
+---
