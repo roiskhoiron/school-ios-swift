@@ -14,7 +14,8 @@
         "Protocols & Delegation",
         "Extensions & Generics",
         "Error Handling",
-        "Xcode Installation & Project Setup"
+        "Xcode Installation & Project Setup",
+        "SwiftUI Introduction"
       ],
       "practice": [],
       "quizzes": [],
@@ -29,11 +30,12 @@
         "Protocols & Delegation",
         "Extensions & Generics",
         "Error Handling",
-        "Xcode Installation & Project Setup"
+        "Xcode Installation & Project Setup",
+        "SwiftUI Introduction"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Xcode Installation & Project Setup",
+      "lastCompletedItem": "SwiftUI Introduction",
       "currentBloomStage": null
     }
   },
@@ -43,6 +45,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 600,
+  "xp": 650,
   "level": 1
 }

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DemoStoryboardViewController-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController title="DemoStoryboardViewController" interactionActivityTrackingBaseName="DemoStoryboardViewController" id="Y6W-OH-hqX" customClass="DemoStoryboardViewController" customModule="HelloRois" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hallo Rois dari Storyboard!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="mmI-p6-H7M">
+                                <rect key="frame" x="95" y="416" width="203" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="b27-hb-B0y"/>
+                                    <constraint firstAttribute="width" constant="203" id="oB5-B2-tUQ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="20" id="xEr-k4-i9P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ata-Fh-3jO">
+                                <rect key="frame" x="110" y="456" width="173" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="173" id="uLI-3e-4Jk"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Tap aku Storyboard"/>
+                                <connections>
+                                    <action selector="storyTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="JeS-1y-ob4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mmI-p6-H7M" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="95" id="C5D-Fg-Jbt"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="mmI-p6-H7M" secondAttribute="bottom" constant="348" id="DVV-No-PKn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="mmI-p6-H7M" secondAttribute="trailing" constant="95" id="Kad-6R-3Eo"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ata-Fh-3jO" secondAttribute="trailing" constant="110" id="Mcj-ww-7QT"/>
+                            <constraint firstItem="ata-Fh-3jO" firstAttribute="top" secondItem="mmI-p6-H7M" secondAttribute="bottom" constant="20" id="OgF-eq-lpe"/>
+                            <constraint firstItem="ata-Fh-3jO" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="110" id="lRf-ca-aWL"/>
+                            <constraint firstItem="mmI-p6-H7M" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="298" id="mBH-pO-a7a"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stroyLabel" destination="mmI-p6-H7M" id="Vmf-3K-8n3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="92"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

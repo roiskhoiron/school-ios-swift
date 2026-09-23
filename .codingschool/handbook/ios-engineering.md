@@ -278,3 +278,29 @@ Penyebab: ModelContainer coba buat SQLite di Application Support/default.store t
 **Progress:** 100% complete
 
 ---
+## 2026-09-23 14:49:31
+
+**Topic:** SwiftUI Introduction
+
+**Theory:**
+- SwiftUI = deklaratif (arsitek: deskripsikan hasil akhir, SwiftUI urus cara), UIKit = imperatif (tukang: langkah demi langkah addSubview + constraints).
+- Preview Canvas = kaca ajaib, ketik kode langsung lihat di simulator tanpa Run. State-driven: ubah @State var, UI auto refresh (beda UIKit harus label.text = manual).
+
+**Practice:**
+- Dibandingkan via DemoUIKitViewController.swift yang dibuat di HelloRois:
+```swift
+class DemoUIKitViewController: UIViewController {
+  override func viewDidLoad(){
+    view.backgroundColor=.systemBackground
+    let label=UILabel(); label.text="Halo dari UIKit"
+    view.addSubview(label)
+    NSLayoutConstraint.activate([...])
+  }
+}
+struct UIKitWrapper: UIViewControllerRepresentable { func makeUIViewController(...) -> DemoUIKitViewController{...}}
+```
+- Eksperimen: SwiftUI ContentView dengan @State + VStack vs UIKit manual constraints, merasakan perbedaan deklaratif vs imperatif.
+
+**Progress:** 100% complete
+
+---

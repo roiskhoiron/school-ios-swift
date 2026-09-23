@@ -14,7 +14,7 @@
 
 ## Phase 2 – Xcode & SwiftUI Basics 🎨
 - [x] **Xcode Installation & Project Setup** – creating a new project, workspace, scheme, debugging
-- [ ] **SwiftUI Introduction** – declarative UI paradigm, preview canvas, live preview
+- [x] **SwiftUI Introduction** – declarative UI paradigm, preview canvas, live preview
 - [ ] **SwiftUI Views** – `Text`, `Image`, `Button`, `VStack`, `HStack`, `ZStack`, `Spacer`
 - [ ] **State Management Basics** – `@State`, `@Binding`, local vs passed state
 - [ ] **Navigation** – `NavigationView`, `NavigationLink`, `NavigationStack` (iOS 16+)
