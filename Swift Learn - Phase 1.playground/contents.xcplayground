@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<playground target-platform="ios" version="7.0" requires-full-environment="false" swift-version="6">
+<playground swift-version="6" version="7.0" requires-full-environment="false" target-platform="ios">
     <pages>
         <page name="Swift Variables &amp; Constants"/>
         <page name="Swift Data Types"/>
@@ -8,5 +8,7 @@
         <page name="Swift Functions"/>
         <page name="Swift Enums &amp; Associated Values"/>
         <page name="Swift Struct &amp; Classes"/>
+        <page name="Swift Protocols &amp; Delegation"/>
+        <page name="Swift Extensions &amp; Generics"/>
     </pages>
 </playground>

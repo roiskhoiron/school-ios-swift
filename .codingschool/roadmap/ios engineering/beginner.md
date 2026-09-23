@@ -8,8 +8,8 @@
 - [x] **Functions** – parameters, return values, default values, variadic, labeled arguments, closures
 - [x] **Enums & Associated Values** – basic enums, raw values, associated values, pattern matching
 - [x] **Structs vs Classes** – value vs reference semantics, inheritance, initializers, deinit
-- [ ] **Protocols & Delegation** – defining protocols, conforming, using `delegate` pattern
-- [ ] **Extensions & Generics** – adding functionality, generic constraints, `where` clauses
+- [x] **Protocols & Delegation** – defining protocols, conforming, using `delegate` pattern
+- [x] **Extensions & Generics** – adding functionality, generic constraints, `where` clauses
 - [ ] **Error Handling** – `throw`, `try`, `catch`, `Result` type, custom errors
 
 ## Phase 2 – Xcode & SwiftUI Basics 🎨

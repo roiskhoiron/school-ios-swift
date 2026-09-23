@@ -10,7 +10,9 @@
         "Control Flow",
         "Functions",
         "Enums & Associated Values",
-        "Structs vs Classes"
+        "Structs vs Classes",
+        "Protocols & Delegation",
+        "Extensions & Generics"
       ],
       "practice": [],
       "quizzes": [],
@@ -21,11 +23,13 @@
         "Control Flow",
         "Functions",
         "Enums & Associated Values",
-        "Structs vs Classes"
+        "Structs vs Classes",
+        "Protocols & Delegation",
+        "Extensions & Generics"
       ],
       "completedPractice": [],
       "currentItem": null,
-      "lastCompletedItem": "Structs vs Classes",
+      "lastCompletedItem": "Extensions & Generics",
       "currentBloomStage": null
     }
   },
@@ -35,6 +39,6 @@
     "practice": 100,
     "architecture": 50
   },
-  "xp": 350,
+  "xp": 450,
   "level": 1
 }

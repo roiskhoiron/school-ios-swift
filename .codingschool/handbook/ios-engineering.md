@@ -173,3 +173,49 @@ var c=UserClass(nama:"Rois"); var d=c; d.nama="Budi" // c ikut jadi Budi
 **Progress:** 100% complete
 
 ---
+## 2026-09-22 06:36:11
+
+**Topic:** Protocols & Delegation
+
+**Theory:**
+- Protocol = kontrak/blueprint (mirip interface Dart) berisi daftar requirement yang wajib diimplementasi. Bisa dipakai struct & class, bisa default impl via extension.
+- Delegation = pola Bos->Asisten: Bos punya `weak var delegate: Protocol?` untuk minta tolong, Asisten conform `class Asisten: Protocol` untuk kerjakan. Beda dengan protocol biasa yang hanya blueprint polymorphic.
+- Kenapa `weak`? Cegah retain cycle (bos kuat ke asisten, asisten kuat ke bos = memory leak). Delegation adalah komunikasi one-to-one.
+- Beda inheritance class Induk: inheritance = "adalah" (is-a), protocol = "bisa" (can-do), lebih fleksibel multi-conform.
+
+**Practice:**
+```swift
+protocol Penyapa { func sapa()->String }
+struct Manusia:Penyapa { var nama:String; func sapa()->String{"Halo \(nama)"} }
+protocol TugasDelegate:AnyObject { func tugasSelesai(nama:String) }
+class Bos { weak var delegate:TugasDelegate?; func mintaKerjakan(){delegate?.tugasSelesai(nama:"Laporan")} }
+class Asisten:TugasDelegate{ func tugasSelesai(nama:String){print("\(nama) selesai")} }
+extension Penyapa { func sapaFormal()->String{"Selamat pagi, "+sapa()} }
+```
+- Diskusi: protocol mirip interface Dart, delegate = defining side (`weak var`) vs implementing side (`class A: Protocol`), protocol tanpa delegation hanya blueprint generik polymorphic.
+
+**Progress:** 100% complete
+
+---
+## 2026-09-23 13:29:34
+
+**Topic:** Extensions & Generics
+
+**Theory:**
+- Extensions = stiker tambahan: tempel kemampuan baru ke type existing (String, Int, Array) tanpa subclassing. Contoh `extension String { var isValidEmail }`.
+- Generics = charger universal: satu function/type untuk banyak tipe `func tukar<T>(a:T,b:T)`. Array sendiri adalah `Array<Element>` generic, makanya bisa simpan String/Int apapun + punya method generic seperti map/filter.
+- Kombinasi: `extension Array { func safeGet(index:Int)->Element? }` pakai generic Element.
+
+**Practice:**
+```swift
+extension String { var isValidEmail:Bool{contains("@")}; func sapa()->String{"Halo \(self)!"} }
+extension Int { var isGenap:Bool{self%2==0} }
+func tukar<T>(a:T,b:T)->(T,T){(b,a)}
+func jumlahkan<T:Numeric>(a:T,b:T)->T{a+b}
+extension Array { func safeGet(index:Int)->Element? { indices.contains(index) ? self[index] : nil } }
+```
+- Diskusi: safeGet pakai extension karena Array sudah generic, tinggal tambah method yang return Element? agar aman out of bounds.
+
+**Progress:** 100% complete
+
+---
